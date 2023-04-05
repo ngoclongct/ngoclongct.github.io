@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our team is proud to have our lastest paper <a href="https://ieeexplore.ieee.org/document/9883593">DSA+</a> was accepted at IGARSS 2022.
+Our team is proud to have our lastest paper <a href="https://ieeexplore.ieee.org/document/9883593">DSA+</a> accepted at IGARSS 2022.
