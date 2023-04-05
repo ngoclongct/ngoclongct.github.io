@@ -1,6 +1,6 @@
 ---
-layout: about
-title: about
+layout: About
+title: About
 permalink: /
 subtitle: #[Centre Borelli](https://centreborelli.ens-paris-saclay.fr/en), ENS-Paris-Saclay
 
