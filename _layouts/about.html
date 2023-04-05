@@ -8,12 +8,14 @@ layout: default
     <h1 class="post-title">
       {% if site.title == "blank" -%}<span class="font-weight-bold"
         >{{ site.first_name }}</span
-      >{% endif %} {{ site.middle_name }} {{ site.last_name }}
+      >
+      {{ site.middle_name }} {{ site.last_name }}{%- else -%}{{ site.title }}{%-
+      endif %}
     </h1>
     <p class="desc">{{ page.subtitle }}</p>
   </header>
 
-  <div class="clearfix">
+  <article>
     {% if page.profile -%}
     <div
       class="profile float-{%- if page.profile.align == 'left' -%}left{%- else -%}right{%- endif -%}"
@@ -27,26 +29,34 @@ layout: default
       -%} {% endif -%} {%- if page.profile.address %}
       <div class="address">{{ page.profile.address }}</div>
       {%- endif %}
-
-      <!-- Social links -->
-      {%- if page.social %}
-      <div class="contact-icons">{% include social.html %}</div>
-      {%- endif %}
     </div>
     {%- endif %}
 
-    <div class="entry-content">{{ content }}</div>
-  </div>
+    <div class="clearfix">{{ content }}</div>
 
-  {% if page.news -%}
-  <h2>
-    <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
-  </h2>
-  {%- include news.html %} {%- endif %} {% if page.selected_papers -%}
-  <h2>
-    <a href="{{ '/publications/' | relative_url }}" style="color: inherit"
-      >selected publications</a
-    >
-  </h2>
-  {%- include selected_papers.html %} {%- endif %}
+    <!-- News -->
+    {% if page.news -%}
+    <h2>
+      <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
+    </h2>
+    {%- include news.html %} {%- endif %}
+
+    <!-- Selected papers -->
+    {% if page.selected_papers -%}
+    <h2>
+      <a href="{{ '/publications/' | relative_url }}" style="color: inherit"
+        >selected publications</a
+      >
+    </h2>
+    {%- include selected_papers.html %} {%- endif %}
+
+    <!-- Social -->
+    {%- if page.social %}
+    <div class="social">
+      <div class="contact-icons">{% include social.html %}</div>
+
+      <div class="contact-note">{{ site.contact_note }}</div>
+    </div>
+    {%- endif %}
+  </article>
 </div>
