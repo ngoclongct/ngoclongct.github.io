@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: [Centre Borelli](https://centreborelli.ens-paris-saclay.fr/en), ENS-Paris-Saclay
+subtitle: #[Centre Borelli](https://centreborelli.ens-paris-saclay.fr/en), ENS-Paris-Saclay
 
 profile:
   align: right
