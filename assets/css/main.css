@@ -356,8 +356,8 @@ footer.fixed-bottom {
 }
 footer.fixed-bottom .container {
   color: var(--global-footer-text-color);
-  padding-top: 9px;
-  padding-bottom: 8px;
+  padding-top: 5px;
+  padding-bottom: 4px;
 }
 footer.fixed-bottom a {
   color: var(--global-footer-link-color);
@@ -369,9 +369,9 @@ footer.fixed-bottom a:hover {
 
 footer.sticky-bottom {
   border-top: 1px solid var(--global-divider-color);
-  padding-top: 40px;
-  padding-bottom: 40px;
-  font-size: 0.9rem;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 0.75rem;
 }
 
 .cv {
