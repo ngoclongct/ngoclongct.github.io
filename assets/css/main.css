@@ -352,7 +352,7 @@ blockquote {
 
 footer.fixed-bottom {
   background-color: var(--global-footer-bg-color);
-  font-size: 0.35rem;
+  font-size: 0.5rem;
 }
 footer.fixed-bottom .container {
   color: var(--global-footer-text-color);
