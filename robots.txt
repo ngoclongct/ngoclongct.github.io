@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://ngoclongct.github.io/sitemap.xml
