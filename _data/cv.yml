@@ -19,12 +19,12 @@
         - Joint super-resolution and HDR for burst of multi-exposure satellite images.
         - Self-supervised single image super-resolution for Sentinel-2.
         - Image and video restoration using deep learning.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+    - title: Master MVA
+      institution: École Normale Supérieure Paris-Saclay, France
+      year: 2019 - 2020
       description:
-        - Description 1.
-        - Description 2.
+        - Digital Image Processing, Image Denoising, Computer Vision, Machine Learning, Deep Learning, Image Restoration by Deep Learning, Optimal Transport, Remote Sensing Data, Kernel Method, Stochastic Method, Convex Optimization.
+        - Graduated with high honours (18+/20).
 
 - title: Experience
   type: time_table
