@@ -8,14 +8,12 @@ layout: default
     <h1 class="post-title">
       {% if site.title == "blank" -%}<span class="font-weight-bold"
         >{{ site.first_name }}</span
-      >
-      {{ site.middle_name }} {{ site.last_name }}{%- else -%}{{ site.title }}{%-
-      endif %}
+      >{% endif %} {{ site.middle_name }} {{ site.last_name }}
     </h1>
     <p class="desc">{{ page.subtitle }}</p>
   </header>
 
-  <article>
+  <div class="clearfix">
     {% if page.profile -%}
     <div
       class="profile float-{%- if page.profile.align == 'left' -%}left{%- else -%}right{%- endif -%}"
@@ -29,34 +27,26 @@ layout: default
       -%} {% endif -%} {%- if page.profile.address %}
       <div class="address">{{ page.profile.address }}</div>
       {%- endif %}
-    </div>
-    {%- endif %}
 
-    <div class="clearfix">{{ content }}</div>
-
-    <!-- News -->
-    {% if page.news -%}
-    <h2>
-      <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
-    </h2>
-    {%- include news.html %} {%- endif %}
-
-    <!-- Selected papers -->
-    {% if page.selected_papers -%}
-    <h2>
-      <a href="{{ '/publications/' | relative_url }}" style="color: inherit"
-        >selected publications</a
-      >
-    </h2>
-    {%- include selected_papers.html %} {%- endif %}
-
-    <!-- Social -->
-    {%- if page.social %}
-    <div class="social">
+      <!-- Social links -->
+      {%- if page.social %}
       <div class="contact-icons">{% include social.html %}</div>
-
-      <div class="contact-note">{{ site.contact_note }}</div>
+      {%- endif %}
     </div>
     {%- endif %}
-  </article>
+
+    <div class="entry-content">{{ content }}</div>
+  </div>
+
+  {% if page.news -%}
+  <h2>
+    <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
+  </h2>
+  {%- include news.html %} {%- endif %} {% if page.selected_papers -%}
+  <h2>
+    <a href="{{ '/publications/' | relative_url }}" style="color: inherit"
+      >selected publications</a
+    >
+  </h2>
+  {%- include selected_papers.html %} {%- endif %}
 </div>
