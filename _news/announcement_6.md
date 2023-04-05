@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our <a href="https://arxiv.org/abs/2302.11494">paper</a> was accepted at IGARSS 2023.
+We are thrilled to announce that our <a href="https://arxiv.org/abs/2302.11494">lastest paper</a> has been accepted for presentation at IGARSS 2023.

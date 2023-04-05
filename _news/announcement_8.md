@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper L1BSR was accepted at EarthVision CVPRW 2023 :smile:
+Our team's novel work paid off as our paper on Self-supervised SISR for Sentinel-2 (L1BSR) was accepted for presentation at EarthVision CVPRW 2023. Stay tuned for update! :tada:

@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our <a href="http://www.ipol.im/pub/art/2022/430/">paper and demo</a> was accepted at <a href="http://www.ipol.im/">MLBrief 2022</a> and received the best student paper award :tada:
+Our <a href="http://www.ipol.im/pub/art/2022/430/">paper and demo</a> on <a href="http://www.ipol.im/">MLBrief 2022</a> has been recognized with The Best Student Paper Award :tada:

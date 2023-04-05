@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our <a href="https://arxiv.org/abs/2303.05879">paper</a> was accepted at EarthVision CVPRW 2023.
+We are proud to have our paper <a href="https://arxiv.org/abs/2303.05879">paper</a> was accepted at EarthVision CVPRW 2023.
