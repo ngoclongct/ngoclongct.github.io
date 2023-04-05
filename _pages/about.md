@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: ngoclong_nguyen [at] ens-paris-saclay [dot] fr #[Centre Borelli](https://centreborelli.ens-paris-saclay.fr/en), ENS-Paris-Saclay
+subtitle: Contact me at ngoclong_nguyen [at] ens-paris-saclay [dot] fr #[Centre Borelli](https://centreborelli.ens-paris-saclay.fr/en), ENS-Paris-Saclay
 
 profile:
   align: right
