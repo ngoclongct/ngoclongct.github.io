@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-We are thrilled to announce that our <a href="https://arxiv.org/abs/2302.11494">lastest paper</a> has been accepted for presentation at IGARSS 2023.
+We are thrilled to announce that our <a href="https://arxiv.org/abs/2302.11494">our study on SISR for Sentinel-2</a> has been accepted for presentation at IGARSS 2023.
