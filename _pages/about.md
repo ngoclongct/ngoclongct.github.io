@@ -9,19 +9,17 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Office U332b Centre Borelli</p>
+    <p>4 Avenue des Sciences</p>
+    <p>91190 Gif-sur-Yvette</p>
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hi, I'm currently a 3rd year PhD student at <a href="https://centreborelli.ens-paris-saclay.fr/en">Centre Borelli</a>, ENS-Paris-Saclay.
+Hi, I'm currently a 3rd year PhD student in Image Processing group at <a href="https://centreborelli.ens-paris-saclay.fr/en/image-processing">Centre Borelli</a>, ENS-Paris-Saclay.
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+My work focuses in image and video restoration using deep learning, particularly in the context of remote sensing, working under the supervision of <a href="http://dev.ipol.im/~facciolo/">Prof. Gabriele Facciolo</a> and <a href="http://dev.ipol.im/~pariasm/">Dr. Pablo Arias</a>.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Before that, I graduated from <a href="https://ens-paris-saclay.fr/">École Normale Supérieur</a> through the master's degree program MVA (mathematics, vision and learning) and I received a bachelor degree from <a href="https://www.sorbonne-universite.fr/en">Sorbonne University (ex UPMC)</a> with majors in applied mathematics.
