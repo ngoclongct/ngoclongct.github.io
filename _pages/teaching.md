@@ -17,4 +17,4 @@ nav_order: 5
 
 - **Degree:** Master 2 ARIA
 - **Institution:** ENS Paris-Saclay
-- **Date;** Fall 2022
+- **Date:** Fall 2022
