@@ -11,4 +11,10 @@ nav_order: 5
 
 - **Course:** Analyse L2
 - **Institution:** Université Paris-Sud
-- **Date:** Fall 2021
+- **Date:** Spring 2021
+
+### Internship Supervisor
+
+- **Degree:** Master 2 ARIA
+- **Institution:** ENS Paris-Saclay
+- **Date;** Fall 2022
