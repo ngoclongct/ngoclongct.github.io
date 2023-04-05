@@ -15,18 +15,10 @@
       institution: École Normale Supérieure Paris-Saclay, France
       year: 2020 - 2023
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+        - Self-supervised multiframe super-resolution for push-frame satellite imagery.
+        - Joint super-resolution and HDR from burst of multi-exposure satellite images.
+        - Self-supervised single image super-resolution for Sentinel-2.
+        - Image and video restoration using deep learning.
 
 - title: Experience
   type: time_table
