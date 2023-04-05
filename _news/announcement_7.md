@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-We are proud to have our paper <a href="https://arxiv.org/abs/2303.05879">paper</a> was accepted at EarthVision CVPRW 2023.
+We are proud to have our research on <a href="https://arxiv.org/abs/2303.05879">MISR for satellite imagery</a> was accepted at EarthVision CVPRW 2023.
