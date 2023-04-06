@@ -35,6 +35,13 @@
       year: 2017 - 2018
       description:
         - Graduated with highest honour (19.35/20, rank 1/350)
+    - title: Engineering
+      institution: École CentraleSupélec
+      year: 2016 - 2017
+    - title: CPGE scientifique
+      institution: Lycée Louis-le-Grand
+      year: 2013 - 2016
+      description: MPSI2 - MP*1
 
 - title: Experience
   type: time_table
